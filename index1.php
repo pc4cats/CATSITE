@@ -1,5 +1,4 @@
 <html>
-<!-- هذه "الفورم" تم وضعها للتحكم في عناصرها بواسطة "بي إتش بي" فقط -->
 <!-- This "Form" let me controle elements using "PHP" -->
 <form method="Post" enctype="multipart/form-data">
 
@@ -9,7 +8,6 @@
     </head>
 
     <body>
-<!-- هذه أكواد تخصيص العناصر في الشريط أعلى الموقع --> 
 <!-- These are the line on the top of the Site codes -->
         <div id="toplinediv" class="unselectable">
             <ul id="toplinelist">
@@ -19,7 +17,6 @@
             </ul>
         </div>
 
-<!-- هذه أكواد تخصيص شعار وعنوان الموقع --> 
 <!-- These are the Logo & Title codes -->
         <div id="logotitlediv" class="unselectable">
             <div id="logosubdiv">
@@ -30,7 +27,6 @@
             </div>
         </div>
 
-<!-- هذه أكواد تخصيص شريط القائمة والعناوين المتحركة --> 
 <!-- These are the Menu codes -->
         <div id="Menudiv" class="unselectable">
             <ul id="menulist">
@@ -50,10 +46,8 @@
             </p>
         </div>
 
-<!-- هذه أكواد تخصيص الصفحة الرئيسية "التي تضم المواضيع" والقائمة الجانبية --> 
 <!-- These are the Main Page & Sidebar codes -->
         <div id="mainsidediv">
-            <!-- هذه أكواد تخصيص الصفحة الرئيسية --> 
             <!-- These are the Main Page Codes -->
             <div id="maindiv">
                 <table id="maintable">
@@ -131,7 +125,6 @@
                     </tr>
                 </table>
             </div>
-            <!-- هذه أكواد تخصيص القائمة الجانبية --> 
             <!-- These are the Sidebar codes -->
             <div id="sidediv">
                 <a href="#" class="links">
@@ -154,7 +147,6 @@
                     <button type="submit" id="phpfilebut" name="upload1">إرسال</button>
                     <br><br>
                 </div>
-                <!-- هذه أكواد "بي إتش بي" للحصول على أي ملف تم رفعه -->
                 <!-- These are PHP CODES to get uploaded files -->
                <?php
                     if(isset($_POST['upload1']))
@@ -178,7 +170,6 @@
         </div>
     </body>
 
-<!-- مجرد شريط صغير غير مهم -->
 <!-- It's just the last line -->
     <footer id="footer">
         <h5 style="padding-left:10px">© 2023</h5>
