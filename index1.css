@@ -1,0 +1,288 @@
+/*** عناصر عامة ***/
+/*** General Elements ***/
+body
+{
+    margin: 0;
+    /*padding: 0;*/
+    background-color:#f0ecfd;
+    display: flex;
+    flex-direction: column;
+}
+
+li
+{   
+    /*** Making list items in on line ***/
+    display : inline-block;
+}
+
+h1
+{
+    color:white;
+    font-family: Sans-serif;
+    margin: 2;
+}
+
+/*** لجعل العناصر غير قابلة للتحديد والنسخ ***/
+/*** To make elements unselectable ***/
+.unselectable
+{
+    /*-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;*/
+    user-select: none;
+}
+
+/*** الشريط العلوي للموقع ***/
+/*** Topline ***/
+#toplinediv
+{
+    /*text-align: right;*/
+    background-color: #470145;
+    height: 30px;
+    /*width: 100%;*/
+    /*margin: 0;*/
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#toplinelist
+{
+    /*text-align: right;*/
+    font-weight: bold;
+    /*list-style: none;*/
+    margin: auto 10;
+}
+
+/*** الشعار والعنوان ***/
+/*** Logo & Title ***/
+#Logotitlediv
+{
+    height: 90px;
+    /*width: 100%;*/
+    /*++++++++++++USE THIS ONE*/
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#Logosubdiv
+{
+    margin: 10 10 10 0;
+    /*++++++++++++OR float This ONE*/
+    /*float: right;*/
+}
+
+#titlesubdiv
+{
+    Width:150px;
+    height:40px;
+    background-color:#490648;
+    margin: auto 10;
+    border-radius: 10px;
+    text-align: center;
+    /*++++++++++++and float This ONE*/
+    /*float: right;*/
+}
+
+/*** القائمة والعناوين المتحركة ***/
+/*** Menu ***/
+#menudiv
+{
+    background-color: #481A4B;
+    height: 30px;
+    /*width: 100%;*/
+    display:flex;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+#menulist
+{
+    width: 50%;
+    /*float: right;*/
+    /*list-style: none;*/
+    margin: auto 10;
+}
+
+#menupara
+{
+    /*padding: auto;*/
+    width: 50%;
+    /*height: 80%;*/
+    margin: auto;
+}
+
+/*** تخصيص الروابط الموجودة في كل من أعلى الموقع والقائمة ***/
+/*** Links in Top Line & Menu ***/
+.Links
+{
+    /*width: 100%;*/
+    margin-left: 20px;
+    text-decoration: NONE;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+
+.Links:hover
+{
+    color: #490648;
+    padding: 6.5;
+    margin-left: 7 ;
+    background-color:white;
+}
+
+/*** الصفحة الرئيسية والقائمة الجانبية ***/
+/*** Main Page & Side Bar ***/
+#mainsidediv
+{    
+    width: 100%;
+    height: 100%;
+    /*** When u use this code, some content get hide when minimize tab***/
+    /*display: flex;
+    flex-direction: row-reverse;*/
+}
+
+/*** الصفحة الرئيسية ***/
+/*** Main Page ***/
+#maindiv
+{
+    float: right;
+    width: 75%;
+    height: 100%;
+    /*can u use align here and remove #maintable align!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!text-align: center;*/
+    border-right: #470145 2PX SOLID;
+}
+
+#maintable
+{
+    /*width: 100%;*/
+    /*u can use this code only here to center all table tabes content, or use it in each table tab*/
+    text-align: center;
+}
+
+.maintableimg
+{
+    border: solid 3px #490648;
+    /*** Great idea ***/
+    width: 90%;
+
+    height: 160px;
+}
+
+.maintablelink
+{   
+    /*text-align: center;*/
+    text-decoration: none;
+    color: #490648;
+}
+
+.maintableimg:hover,.maintablelink:hover
+{   
+    border: 3px rgb(52, 215, 207) solid;
+    color: #09937c;
+}
+
+.maintablepara
+{
+    /*text-align: center;*/
+    text-align: justify;
+    padding: 0 4 0 4;
+    margin-top: -20;
+}
+
+/*** القائمة الجانبية ***/
+/*** SideBar ***/
+#sidediv
+{
+    float: left;
+    width: 24%;
+    height: 100%;
+    text-align: center;
+    border-right: darkblue 2PX SOLID;
+
+}
+
+#SSdiv
+{
+    margin: 5 auto 40 auto;
+    /*margin-top: 5px;
+    margin-bottom: 40px;*/
+    border-radius: 10px;
+    border: #1EEBC9 2px double;
+    background-color: aquamarine;
+    width: 70%;
+    /*height: auto;*/
+}
+
+.SSimg
+{
+    width: 50px;
+    /*text-align: center;*/   
+}
+
+#ad3div
+{
+    margin-bottom: 40px;
+}
+
+#adimg
+{
+    /*float: none;*/
+    width: 30px;
+    /*height: 30px;*/
+}
+
+#adimg:hover
+{
+    background-color: aqua;
+    width: 26px;
+    /*height: 26px;*/
+    border: #490648 2px dotted;
+}
+
+/*** تخصيص مساحة ملف بي إتش بي ***/
+/*** PHP File Uploaded ***/
+#phpfile
+{
+    margin: auto 0 auto 0;
+    width: 100%;
+}
+
+#phpfilebut
+{
+    border: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: aquamarine;
+    width: 90px;
+    height: 30px;
+    /*margin: auto auto auto 0;*/
+}
+
+#phpfilebut:hover
+{
+    font-size: 18px;
+    color: #1EEBC9;
+    background-color:#490648;
+}
+
+#phpfilebut:active
+{
+    font-size: 20px;
+    color: #EEE8EE;
+    background-color: green;
+}
+
+/*** الشريط السفلي للموقع ***/
+/*** Footer ***/
+/* can u use footer with out id !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#footer
+{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font: 20px arial;
+    color: #470145;
+}
